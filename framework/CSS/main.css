@@ -1,0 +1,250 @@
+body{
+	margin: 0;
+	color: skyblue;
+}
+
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 5px;
+	background-color: skyblue;
+	margin:0;
+	min-height:100%;
+	min-width: 100%;
+}
+
+header{
+	display: flex;
+	flex-flow: row;
+	/*border: black solid;*/
+	width: 100%;
+	margin:5px;
+	max-height:170px;
+	border-radius: 25px;
+	align-items:center;
+	background-color: skyblue;
+	background-color: white;
+}
+
+.heading{
+	float: left;
+	width: calc(70% - 5px);
+	/*border: black solid;*/
+	margin: 0;
+	max-height: 100%;
+	border-radius: 25px;
+	margin-top: 3%;
+	background-color: white;
+}
+
+.heading-one{
+	text-align: center;
+	font-size: 3em;
+	color: skyblue;
+	background-color: white;
+	height:100%;
+}
+
+.heading-pic{
+	border-radius: 25px;
+	float: left;
+	width: calc(30% - 5px);
+	/*border: black solid;*/
+	margin: 0;
+	max-height: 100%;
+}
+
+.heading-two{
+	text-align: center;
+	font-size: 200%;
+	padding-top: 0px;
+	margin-top: -34px;
+	background-color: white;
+	color: skyblue;
+}
+
+article{
+	display: flex;
+	flex-flow: column;
+	padding: 0px;
+	/*border: solid black;*/
+	flex:1;
+	margin-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border-radius:25px;
+	background-color: white;
+}
+
+.featured{
+	/*border: solid black;*/
+	padding:0;
+	margin:0;
+	border-top-left-radius: 25px; 
+	border-top-right-radius: 25px;
+}
+
+.featured-heading{
+	text-align: center;
+	font-size: 25px;
+}
+
+.season{
+	/*border: solid black;*/
+	display: flex;
+	margin: 0;
+	padding:0;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.spring{
+	flex:1;
+}
+
+.spring-heading{
+	text-align: center;
+	font-size: 20px;
+}
+
+.fall{
+	flex:1;
+}
+
+.fall-heading{
+	text-align: center;
+	font-size: 20px;
+}
+
+.winter{
+	flex:1;
+}
+
+.winter-heading{
+	text-align: center;
+	font-size: 20px;
+}
+
+section{
+	/*border: solid black;*/
+	padding: 4px;
+	flex:1;
+	border-radius: 25px;
+	background-color: white;
+}
+
+footer{
+	/*border: solid black;*/
+	padding: 4px;
+	width: 100%;
+	order:4;
+	margin: 5px;
+	min-height: 8px;
+	height: 100%;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.footer-content{
+	text-align: center;
+	color: skyblue;
+	margin-top: 1%;
+}
+
+aside{
+	/*border: solid black;*/
+	order:2;
+	margin: 5px;
+	width: calc(30% - 5px);
+	flex-direction:column;
+	display: flex;
+	flex-flow:column;
+	min-width: 200px;
+	border-radius:25px;
+	background-color: white;
+	padding:0;
+}
+
+.food-documentary{
+	/*border:black solid;*/
+}
+
+.food-documentary-heading{
+    text-align: center;
+    margin-top: 5%;
+    color: skyblue;
+}
+
+.slideshow-div{
+	/*border:black solid;*/
+	overflow: hidden;
+	min-height: 250px;
+	margin-top: 8%;
+}
+
+.major{
+	/*border: black solid;*/
+	display: flex;
+	flex-flow:column;
+	order:3;
+	flex:1;
+	margin: 5px;
+	width: calc(70% - 5px);
+	min-width: 320px;
+	border-radius:25px;
+}
+
+.manhanquanxi{
+	max-width: 100%;
+	min-height: 100%;
+}
+
+.heading-pic{
+    overflow: hidden;
+}
+
+.springzero{
+	/*border: solid black;*/
+}
+
+.fallzero{
+	/*border: solid black;*/
+}
+
+.winterzero{
+	/*border: black solid;*/
+}
+
+.winterone{
+    max-width: 100%;
+    min-height: 100%;
+    margin-left: 2%;
+    border-radius: 25px;
+}
+
+.springone{
+	max-width: 100%;
+	min-height: 100%;
+	margin-left: 2%;
+	border-radius: 25px;
+}
+
+.fallone{
+	max-width: 100%;
+	min-height: 100%;
+	margin-left: 2%;
+	border-radius: 25px;
+}
+
+.pic{
+	max-width: 100%;
+	border-radius: 25px;
+}
+
+.navbar-brand{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+
