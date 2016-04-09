@@ -16,24 +16,23 @@ body{
 header{
 	display: flex;
 	flex-flow: row;
-	/*border: black solid;*/
+	border: black solid;
 	width: 100%;
 	margin:5px;
 	max-height:170px;
 	border-radius: 25px;
-	align-items:center;
 	background-color: skyblue;
 	background-color: white;
 }
 
 .heading{
-	float: left;
+	float: left;/*doesnt work if delete float*/
 	width: calc(70% - 5px);
-	/*border: black solid;*/
+	border: black solid;
 	margin: 0;
 	max-height: 100%;
 	border-radius: 25px;
-	margin-top: 3%;
+	/*margin-top: 3%;*/
 	background-color: white;
 }
 
@@ -49,11 +48,14 @@ header{
 	border-radius: 25px;
 	float: left;
 	width: calc(30% - 5px);
-	/*border: black solid;*/
+	border: black solid;
 	margin: 0;
 	max-height: 100%;
 }
 
+.manhanquanxi{
+	max-height:100%;
+}
 .heading-two{
 	text-align: center;
 	font-size: 200%;
@@ -245,6 +247,30 @@ aside{
 .navbar-brand{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
+}
+
+/*---------------------*/
+@media only screen and (max-width: 480px){
+	.wrapper{
+		flex-flow:column;
+		width:100%;
+	}
+
+	aside{
+		width: 100%;
+	}
+
+    header{
+    	flex-flow:column,wrap;
+    }
+
+    section{
+    	width:100%;
+    }
+
+    article{
+    	width:100%;
+    }
 }
 
 
