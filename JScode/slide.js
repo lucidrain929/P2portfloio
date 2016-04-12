@@ -11,6 +11,6 @@ function nextImage(){
  }
 
  function startSlideShow() {
- 	var timer = setInterval(nextImage, 5500);
+ 	var timer = setInterval(nextImage, 1200);
  }
  

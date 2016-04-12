@@ -1,0 +1,18 @@
+{
+  "name": "p2portfolio",
+  "version": "1.0.0",
+  "description": "udacity project 2",
+  "main": "jquery-2.2.0.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucidrain929/P2portfloio.git"
+  },
+  "author": "Yuzhong Chen",
+  "bugs": {
+    "url": "https://github.com/lucidrain929/P2portfloio/issues"
+  },
+  "homepage": "https://github.com/lucidrain929/P2portfloio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
