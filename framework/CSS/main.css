@@ -171,6 +171,7 @@ aside{
 
 .food-documentary{
 	/*border:black solid;*/
+	max-width: 100%;
 }
 
 .food-documentary-heading{
@@ -184,6 +185,7 @@ aside{
 	overflow: hidden;
 	min-height: 250px;
 	margin-top: 8%;
+	max-width: 100%;
 }
 
 .major{
@@ -240,7 +242,7 @@ aside{
 	border-radius: 25px;
 }
 
-.pic{
+#pic{
 	max-width: 100%;
 	border-radius: 25px;
 }
