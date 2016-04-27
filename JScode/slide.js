@@ -2,7 +2,7 @@ var picIndex=0;
 var picSrcs=["abiteofchina2.jpg","abiteofchina3.jpg"];
 
 function nextImage(){
-	picIndex++
+	picIndex++;
 	if(picIndex == picSrcs.length){ 
 		picIndex = 0;
 	}
@@ -10,7 +10,7 @@ function nextImage(){
 	document.getElementById("pic").src = "../images/" + picSrcs[picIndex];
  }
 
- function startSlideShow() {
+ function startSlideShow(){
  	var timer = setInterval(nextImage, 1200);
  }
  
