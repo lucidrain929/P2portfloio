@@ -3,18 +3,17 @@ body
     margin: 0;
 }
 
-.wrapper
+.wrap
 {
     display: flex;
     flex-flow: row wrap;
-    margin: 5px;
+    margin: 0px;
     background-color: skyblue;
-    margin: 0;
     min-height: 100%;
     min-width: 100%;
 }
 
-header
+.heading-overall
 {
     display: flex;
     flex-flow: row;
@@ -29,14 +28,12 @@ header
 
 .heading
 {
-    float: left;
-/*doesnt work if delete float*/
-    width: calc(70% - 5px);
+    float: left;/*doesnt work if delete float*/
+    width: 69.5%;
 	/*border: black solid;*/
     margin: 0;
     max-height: 100%;
     border-radius: 25px;
-	/*margin-top: 3%;*/
     background-color: white;
 }
 
@@ -48,7 +45,7 @@ header
     color: skyblue;
     background-color: white;
     border-radius: 25px;
-        /*border:solid black;*/
+    /*border:solid black;*/
     height: 100%;
 }
 
@@ -56,15 +53,11 @@ header
 {
     border-radius: 25px;
     float: left;
-    width: calc(30% - 5px);
+    width: 30.5%;
 	/*border: black solid;*/
     margin: 0;
     max-height: 100%;
-}
-
-.manhanquanxi
-{
-    max-height: 100%;
+    overflow: hidden;
 }
 
 .heading-two
@@ -75,19 +68,17 @@ header
     margin-top: -34px;
     background-color: white;
     color: skyblue;
+    border-radius: 25px;
 }
 
-article
+.seasonal-pic
 {
     display: flex;
     flex-flow: column;
     padding: 0;
 	/*border: solid black;*/
     flex: 1;
-    margin-top: 5;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 5px 0 0 0;
     border-radius: 25px;
     background-color: white;
 }
@@ -150,7 +141,7 @@ article
     font-size: 20px;
 }
 
-section
+.seasonal-dish
 {
 	/*border: solid black;*/
     padding: 4px;
@@ -160,7 +151,7 @@ section
     margin-bottom: 0.7em;
 }
 
-footer
+.right 
 {
 	/*border: solid black;*/
     padding: 4px;
@@ -180,7 +171,7 @@ footer
     margin-top: 1%;
 }
 
-aside
+.side-content
 {
 	/*border: solid black;*/
     order: 2;
@@ -234,11 +225,7 @@ aside
 {
     max-width: 100%;
     min-height: 100%;
-}
-
-.heading-pic
-{
-    overflow: hidden;
+    border-radius: 25px;
 }
 
 .springzero
@@ -296,33 +283,52 @@ aside
 /*---------------------*/
 @media only screen and (max-width: 480px)
 {
-    .wrapper
-    {
-        flex-flow: column;
-        width: 100%;
+   .wrap{
+
     }
 
-    aside
+    .wrap
     {
-        width: 100%;
+        width:90%;
     }
-
-    header
-    {
-        flex-flow: column;
-    }
-
-    section
+    .side-content
     {
         width: 100%;
     }
 
-    article
+    .heaing-overall
+    {
+        max-width: 100%;
+    }
+
+    .seasonal-dish
     {
         width: 100%;
     }
 
-    .major{
-        width:100.4%;
+    .seasonal-pic
+    {
+        width: 100%;
+    }
+
+    .major
+    {
+        width: 100.4%;
+    }
+
+    .right
+    { 
+        width: 100%;
+    }
+
+    .heading-two
+    {
+        margin-top: -16px;
+        font-size: 150%;
+    }
+
+    .heading-one
+    {
+       padding-top: 0.2em;
     }
 }
