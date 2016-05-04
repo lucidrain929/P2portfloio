@@ -1,67 +1,54 @@
-body
-{
+body {
     margin: 0;
 }
 
-.wrap
-{
+.wrap {
     display: flex;
     flex-flow: row wrap;
     margin: 0px;
     background-color: skyblue;
     min-height: 100%;
-    min-width: 100%;
+    max-width: 100%;
 }
 
-.heading-overall
-{
+.heading-overall {
     display: flex;
     flex-flow: row;
-	/*border: black solid;*/
     width: 100%;
-	/*height:100%*/
     margin: 5px;
-	/*max-height:170px;*/
     border-radius: 25px;
     background-color: white;
 }
 
-.heading
-{
-    float: left;/*doesnt work if delete float*/
+.heading {
+    float: left;
     width: 69.5%;
-	/*border: black solid;*/
     margin: 0;
     max-height: 100%;
     border-radius: 25px;
     background-color: white;
 }
 
-.heading-one
-{
+.heading-one {
     padding-top: 1.2em;
     text-align: center;
     font-size: 3em;
     color: skyblue;
     background-color: white;
     border-radius: 25px;
-    /*border:solid black;*/
     height: 100%;
 }
 
-.heading-pic
-{
+.heading-pic {
     border-radius: 25px;
     float: left;
     width: 30.5%;
-	/*border: black solid;*/
     margin: 0;
     max-height: 100%;
     overflow: hidden;
 }
 
-.heading-two
-{
+.heading-two {
     text-align: center;
     font-size: 200%;
     padding-top: 0;
@@ -71,36 +58,29 @@ body
     border-radius: 25px;
 }
 
-.seasonal-pic
-{
+.seasonal-pic {
     display: flex;
     flex-flow: column;
     padding: 0;
-	/*border: solid black;*/
     flex: 1;
     margin: 5px 0 0 0;
     border-radius: 25px;
     background-color: white;
 }
 
-.featured
-{
-	/*border: solid black;*/
+.featured {
     padding: 0;
     margin: 0;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.featured-heading
-{
+.featured-heading {
     text-align: center;
     font-size: 25px;
 }
 
-.season
-{
-	/*border: solid black;*/
+.season {
     display: flex;
     margin: 0;
     padding: 0;
@@ -108,42 +88,34 @@ body
     border-bottom-left-radius: 25px;
 }
 
-.spring
-{
+.spring {
     flex: 1;
 }
 
-.spring-heading
-{
+.spring-heading {
     text-align: center;
     font-size: 20px;
 }
 
-.fall
-{
+.fall {
     flex: 1;
 }
 
-.fall-heading
-{
+.fall-heading {
     text-align: center;
     font-size: 20px;
 }
 
-.winter
-{
+.winter {
     flex: 1;
 }
 
-.winter-heading
-{
+.winter-heading {
     text-align: center;
     font-size: 20px;
 }
 
-.seasonal-dish
-{
-	/*border: solid black;*/
+.seasonal-dish {
     padding: 4px;
     flex: 1;
     border-radius: 25px;
@@ -151,9 +123,7 @@ body
     margin-bottom: 0.7em;
 }
 
-.right 
-{
-	/*border: solid black;*/
+.right {
     padding: 4px;
     width: 100%;
     order: 4;
@@ -164,16 +134,13 @@ body
     background-color: white;
 }
 
-.footer-content
-{
+.footer-content {
     text-align: center;
     color: skyblue;
     margin-top: 1%;
 }
 
-.side-content
-{
-	/*border: solid black;*/
+.side-content {
     order: 2;
     margin: 5px;
     width: calc(30% - 5px);
@@ -186,31 +153,24 @@ body
     padding: 0;
 }
 
-.food-documentary
-{
-	/*border:black solid;*/
+.food-documentar {
     max-width: 100%;
 }
 
-.food-documentary-heading
-{
+.food-documentary-heading {
     text-align: center;
     margin-top: 5%;
     color: skyblue;
 }
 
-.slideshow-div
-{
-	/*border:black solid;*/
+.slideshow-div {
     overflow: hidden;
     min-height: 250px;
     margin-top: 8%;
     max-width: 100%;
 }
 
-.major
-{
-	/*border: black solid;*/
+.major {
     display: flex;
     flex-flow: column;
     order: 3;
@@ -221,62 +181,41 @@ body
     border-radius: 25px;
 }
 
-.manhanquanxi
-{
+.manhanquanxi {
     max-width: 100%;
     min-height: 100%;
     border-radius: 25px;
 }
 
-.springzero
-{
-	/*border: solid black;*/;
-}
-
-.fallzero
-{
-	/*border: solid black;*/;
-}
-
-.winterzero
-{
-	/*border: black solid;*/;
-}
-
-.winterone
-{
+.winterone {
     max-width: 100%;
     min-height: 100%;
     margin-left: 2%;
     border-radius: 25px;
 }
 
-.springone
-{
+.springone {
     max-width: 100%;
     min-height: 100%;
     margin-left: 2%;
     border-radius: 25px;
 }
 
-.fallone
-{
+.fallone {
     max-width: 100%;
     min-height: 100%;
     margin-left: 2%;
     border-radius: 25px;
 }
 
-#pic
-{
+#pic {
     min-width: 100%;
     max-width: 100%;
     border-radius: 25px;
 }
 
-.navbar-brand
-{
-    font-family: 'Montserrat', sans-serif;
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
 }
 
@@ -287,48 +226,40 @@ body
 
     }
 
-    .wrap
-    {
-        width:90%;
+    .wrap {
+        max-width:98%;
     }
-    .side-content
-    {
+
+    .side-content {
         width: 100%;
     }
 
-    .heaing-overall
-    {
+    .heaing-overall {
         max-width: 100%;
     }
 
-    .seasonal-dish
-    {
+    .seasonal-dish {
         width: 100%;
     }
 
-    .seasonal-pic
-    {
+    .seasonal-pic {
         width: 100%;
     }
 
-    .major
-    {
+    .major {
         width: 100.4%;
     }
 
-    .right
-    { 
+    .right { 
         width: 100%;
     }
 
-    .heading-two
-    {
+    .heading-two {
         margin-top: -16px;
         font-size: 150%;
     }
 
-    .heading-one
-    {
+    .heading-one {
        padding-top: 0.2em;
     }
 }
